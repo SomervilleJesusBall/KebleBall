@@ -23,6 +23,8 @@ def purchase_home():
 
     Checks if the user can purchase tickets, and processes the purchase form.
     """
+    ticket_types_available
+
     (
         buying_permitted,
         tickets_available,

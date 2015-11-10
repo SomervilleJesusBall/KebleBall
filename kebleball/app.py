@@ -11,3 +11,4 @@ import flask
 APP = flask.Flask('kebleball')
 
 APP.config.from_pyfile('config/default.py')
+APP.config.from_pyfile('config/ticket_types.py')
